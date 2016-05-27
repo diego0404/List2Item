@@ -70,6 +70,14 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Master\" />
+    <Folder Include="Page\" />
+    <Folder Include="Resource\Css\" />
+    <Folder Include="Resource\Image\" />
+    <Folder Include="Resource\Javascript\" />
+    <Folder Include="Resource\jQeury\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
