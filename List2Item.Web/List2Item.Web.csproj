@@ -60,9 +60,16 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Master\Default.Master.cs">
+      <DependentUpon>Default.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Default.Master.designer.cs">
+      <DependentUpon>Default.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Master\Default.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -71,7 +78,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Master\" />
     <Folder Include="Page\" />
     <Folder Include="Resource\Css\" />
     <Folder Include="Resource\Image\" />
